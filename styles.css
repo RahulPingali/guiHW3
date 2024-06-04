@@ -1,0 +1,37 @@
+/*
+File: styles.css
+GUI Assignment: Multiplication Table Web Page
+Rahul Pingali, UMass Lowell Computer Science, rahul_pingali@student.uml.edu 
+What it does: This is the styles.css file that is linked to the index.html file. 
+It contains the CSS code that is used to style the webpage. This file 
+primarly works with the table that is generated, by evenly spacing the
+cells and columns and adding a gray background color to improve visibility
+The generate button is also edited to have a green background color and
+rounded corners to make it more visually appealing and stand out amongst
+the constant gray black and white color scheme that makes up the rest of the page.
+Copyright (c) 2024 by Rahul. All rights reserved. May be freely copied or 
+excerpted for educational purposes with credit to the author.
+updated by RP on June 3rd, 2024 at 9:20 PM
+*/
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+}
+th {
+    background-color: #dbd4d4;
+}
+
+button {
+    background-color: #4CAF50;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
